@@ -8,7 +8,7 @@ namespace Task1
 {
     internal class Machine
     {
-        public void Start()
+        public virtual void Start()
         {
             Console.WriteLine("Machine Started");
         }
